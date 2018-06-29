@@ -1,0 +1,122 @@
+<DOCTYPE! html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="WideBoyz.js"></script>
+  <script src="jquery.js"></script>
+  <script src="pureJS.js"></script>
+  <link rel="stylesheet" href="WideBoyz.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  footer {
+    position: absolute;
+  }
+  @media (max-width: 800px){
+    footer {
+      position: relative;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 1400px) {
+    footer {
+      position: absolute;
+    }
+  }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <audio controls autoplay loop>
+      <source src="africa.mp3" />
+    </audio>
+
+    <form class="topFm" onsubmit="changeSomeStyle()" action="#">
+      <input type="text" id="topFmInput" placeholder="Want to change scrolling text?"  />
+      <input type="submit" value="submit" >
+    </form>
+
+
+    <img class="topCam" src="camera.gif" alt="security camera">
+    <a href="WideBoyz.html">
+      <h1 class="title">
+
+        <span class="blink">Welcome to
+          <font color="#ef4a3b"> S</font>
+          <font color="#fc8a00">a</font>
+          <font color="#fcef00">r</font>
+          <font color="#64fc00">a</font>
+          <font color="#00fc97">h</font>
+          <font color="#0071fc">'</font>
+          <font color="#ac00fc">s </font>
+          <font color="#fc00c5">W</font>
+          <font color="#ef4a3b">i</font>
+          <font color="#fc8a00">d</font>
+          <font color="#fcef00">e</font>
+          <font color="#64fc00"> B</font>
+          <font color="#00fc97">o</font>
+          <font color="#0071fc">y</font>
+          <font color="#ac00fc">z </font>
+          <font color="#fc00c5">B</font>
+          <font color="#ef4a3b">B</font>
+          <font color="#fc8a00">Q</font>
+          <font color="#fcef00">(</font>
+          <font color="#64fc00">.</font>
+          <font color="#00fc97">c</font>
+          <font color="#0071fc">o</font>
+          <font color="#ac00fc">m</font>
+          <font color="#fc00c5">!</font>
+          <font color="#ef4a3b">)</font>
+        </span>
+
+      </h1>
+    </a>
+    <p id="website"> Your favorite BBQ now has a website!</p>
+    <br>
+    <br>
+    <marquee id="mar">
+      rated best bbq in the tri-state area!  &emsp; &emsp;&emsp;&emsp;&emsp;
+      'kitties welcome'
+      &emsp; &emsp;&emsp;&emsp;&emsp;
+      &emsp; &emsp;&emsp;&emsp;&emsp;
+      &emsp; &emsp;&emsp;&emsp;&emsp;
+      smile, you're on camera^^ ;)
+    </marquee>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="options"><a href="menu.html">MENU</a></div>
+        <div class="options"><a href="#">LOCATIONS</a></div>
+        <div class="options"><a href="#">TESTIMONIALS</a></div>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <br>
+
+
+  <section>
+    <h2 class="resTxt">Fill out this form to make a reservation!</h2>
+    <br>
+    <br>
+    <button id="reserve" class="resButton btn">Click to reveal form</button>
+    <br>
+    <br>
+    <div >
+      <form class="resForm">
+        <textarea name="enter the time" rows="1" class="col-sm-3"></textarea>
+        <br>
+        <br>
+        <button class="resButton btn" type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="snow"/>
+  </section>
+  <footer>
+    <a href="about.html" style="float:left;">About!</a>
+    <img src="running_cat.gif">
+    <a href="reservations.html" style="float:right;">Make Reservations!</a>
+  </footer>
+</html>

@@ -1,0 +1,63 @@
+body {
+  background-color: #f9f7ef;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: inherit;
+  border-width:0px;
+  display:inline-block;
+  border-radius: 0px;
+  padding:10px;
+}
+nav a:active {
+  color:white;
+}
+nav a:visited {
+  color:white;
+}
+nav a:hover {
+  color:white;
+  background-color:rgba(255,255,255,.5);
+}
+nav a#active {
+  border-width:0px 0px 5px 0px;
+}
+
+nav {
+  background-color: grey;
+}
+
+
+a {
+  color: #119b95;
+  text-decoration: none;
+  font-style: bold;
+  background-color: #dedfe0;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding:5px;
+}
+
+
+
+a:visited {
+  color: #b205a6;
+  border: 2px solid #b205a6;
+}
+
+a:hover{
+  color: orange;
+}
+
+a:active {
+  color: teal;
+  font-style: italic;
+}
+
+.fancy {
+  font-family: 'Libre Barcode 39 Extended', cursive;
+}
