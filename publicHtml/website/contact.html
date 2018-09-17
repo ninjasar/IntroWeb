@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Cats</title>
+  </head>
+  <body>
+    <header>
+      <div class="topBar">
+        <h1 class="siteTitle">All about Cats!</h1>
+        <div class="nav">
+          <a href="./index.html" class="navLink">Basic Cat information</a>
+          <a href='./myCats.html' class="navLink">My Cats</a>
+          <a href="./wildCats.html" class="navLink">Wild Cats</a>
+          <a href="./savannah.html" class="navLink">Savannah Cats</a>
+          <a href="./contact.html" class="navLink">Contact me!</a>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <div id="contact">
+          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <legend><h2>Send e-mail to me:</h2></legend>
+            <fieldset>
+              Name:<br>
+              <input type="text" name="name" id="name"><br>
+              <br>
+              E-mail:
+              <br>
+              <input type="email" name="email" id="email">
+              <br>
+              <br>
+              Comment:<br>
+              <textarea name="comment" cols="40" rows="5" id="comment"></textarea><br>
+              <br>
+              <label for="cats">Which kind of cat do you like?</label>
+                <br>
+              <input type="radio" name="cats" value="black" id="black"> Black
+              <br>
+              <input type="radio" name="cats" value="white" id="white"> White
+              <br>
+              <input type="radio" name="cats" value="multi" id="multi"> Multi-color
+              <br>
+              <input type="radio" name="cats" value="other" id="other"> Other
+              <br>
+              <br>
+              <label for="numberOfCats">How many cats do you have?</label>
+                <br>
+              <input type="number" name="numberOfCats" id="numCats" min=0 max=20 required="true">
+              <br>
+              <br>
+              <label for="typeOfCats">Which kind of cats do you have?</label>
+              <br>
+              <input type="checkbox" name="typeOfCats" value="fluffy" id="fluffyC"> Fluffy
+              <br>
+              <input type="checkbox" name="typeOfCats" value="sleek" id="sleekC"> Sleek
+              <br>
+              <input type="checkbox" name="typeOfCats" value="long" id="longC"> Long-hair
+              <br>
+              <br>
+              <label for="date">What is today's date?</label>
+              <br>
+              <input type="date" name="date" id="date">
+              <br/>
+              <br/>
+              <label for="color">What color is your ideal cat?</label>
+              <br/>
+              <input type="color" name="color" id="color">
+              <br/>
+              <br/>
+              <label for="breed">Select a breed of cat</label>
+              <br/>
+              <select name="breed">
+                <optgroup label="My Favorite">
+                  <option value="persian">Persian</option>
+                  <option value="persian">Savannah</option>
+                  <option value="persian">Tortoiseshell</option>
+                  <option value="persian">Tabby</option>
+                </optgroup>
+              </select>
+              <br>
+              <br>
+              <label for="volume">Volume</label>
+              <input type="range" min=1 max=10 name="Volume" defaultValue=1 class="slider" id="myRange"
+               step=1/>
+               <br>
+             </fieldset>
+             <br/>
+            <input type="submit" class="fmBtn" value="Send">
+            <input type="reset" class="fmBtn" value="Clear">
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="divider"></div>
+      made by sarah pierce <3
+    </footer>
+  </body>
+</html>

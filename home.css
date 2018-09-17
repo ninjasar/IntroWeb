@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  background-color: #fcfbf7;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   font-family: monospace;
+
 }
 
 h1 {
@@ -12,17 +13,28 @@ p {
   font-size: 20px;
 }
 
-.listWrap {
+.me {
+  border-radius: 7px;
+  border: 2px solid #a77484;
+  box-shadow: 1px 1px 20px 4px #a77484;
+}
+
+.shadow {
+
+}
+
+.wrap {
   text-align: center;
-  background-color: #fdf2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5d475c;
   font-size: 18px;
-  width: 300px;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  border: 2px solid black;
-  border-radius: 20px;
+  color: #f6f9e9;
+  width: 70%;
+  padding: 40px;
+  border: 2px solid #a77484;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -32,8 +44,17 @@ p {
 
   font-size: 14px;
   display: grid;
+}
 
+.t {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
 
+.para {
+  max-width: 900px;
+  line-height: 1.5;
 }
 
 li {
@@ -47,6 +68,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+a:hover {
+  color: #5f8b8e !important;
+}
+
 a:visited  {
   color: #b205a6;
   text-decoration: none;
