@@ -1,0 +1,20 @@
+body {
+  background-color: #F2DCD8;
+  width: 100vw;
+  text-align: center;
+  font-family: futura;
+}
+
+.imgTitle {
+  margin-top: 10%;
+}
+
+
+.pic {
+
+}
+
+.caption {
+  font-size: 20px;
+  margin-top: 2%;
+}
